@@ -1,0 +1,119 @@
+body {
+    font-family: monospace;
+    color: #fff;
+    background-image: url('../Imagens/Rio.png');
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container { /*Container principal*/
+    background: linear-gradient(to bottom, #416CA6, #264773, #416CA6);
+    opacity: 85%; 
+    text-align: center;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.outer-container{
+    background: linear-gradient(to bottom, #264773, #416CA6);      /* Aplica um fundo gradiente linear de baixo para cima */
+    padding: 20px;                                                      /* Preenchimento interno */
+    border-radius: 10px;                                                /* Valor dos cantos arredondados à caixa */
+    overflow: hidden;                                                   /*  Esconde qualquer conteúdo que ultrapasse os limites do contêiner*/
+    
+}
+
+.social-icons {
+    display: flex;                                          /* Ativa o modelo de layout flexível para o contêiner de ícones sociais.*/
+    justify-content: space-around;                          /* Distribui os ícones sociais no contêiner com espaçamento uniforme */
+    margin-top: 10px;                                      /* Adiciona uma margem superior ao contêiner de ícones sociais */
+}
+
+.social-icons a {
+    color: white;                                        /* Define a cor do texto para os ícones sociais*/
+    font-size: 20px;                                       /* Define o tamanho da fonte para os ícones sociais*/
+    margin: 0 10px;                                        /* Adiciona margem à direita e à esquerda para os ícones sociais*/    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a :hover {
+    color: #D97E4A;                                         /* Define a cor do texto quando o usuário passa o mouse sobre os ícones sociais*/
+}
+
+label {    
+    display: block;
+    margin: 10px 0;
+    font-size:16px;
+    
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #264773;   
+}
+
+.custom-input{
+    border-radius: 5px;
+} 
+
+button {
+    background: linear-gradient(to bottom, #264773,  #416CA6, #264773); 
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #264773;
+    border-radius: 5px;
+    cursor: pointer;                          /* O cursor vira uma mãozinha*/
+    transition: background-color 0.4s ease-out 0.2; /* Adiciona transição ao fundo do botão */
+}
+
+button:hover {
+    background: linear-gradient(to bottom,  #416CA6,  #264773, #416CA6); /* transição suave */
+    border: 1px solid #264773;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color:  #fff;
+    
+}
+
+footer{
+    background: linear-gradient(to bottom, #416CA6,  #264773);     /* Aplica um fundo gradiente linear de baixo para cima */
+    padding: 20px;                                                      /* Preenchimento interno */
+    border-radius: 10px;                                                /* Valor dos cantos arredondados à caixa */
+    overflow: hidden;                                                   /*  Esconde qualquer conteúdo que ultrapasse os limites do contêiner*/
+    color: white;
+    font-size: 16px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;     
+ }
+
+footer a:hover{
+    color: #D97E4A;
+ } 
+
+/* Color Theme Swatches in Hex */
+.color-04-1-hex { color: #264773; }
+.color-04-2-hex { color: #416CA6; }
+.color-04-3-hex { color: #8FB2BF; }
+.color-04-4-hex { color: #F2C894; }
+.color-04-5-hex { color: #D97E4A; }
+
+
+
+ 

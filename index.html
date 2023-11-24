@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  
+    <script src="js/script.js"></script> <!-- Script JavaScript -->
+
+    <title>Calculadora de Temperatura</title>
+</head>
+<body>    
+    <div class="container"> <!-- Container principal -->
+        <div class="outer-container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/adriana.olliv/" target="_blank"><i class='fab fa-instagram'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100002977715486&locale=pt_BR" target="_blank"><i class='fab fa-facebook-square'></i></a>
+                <a href="https://www.linkedin.com/in/adriana-oliveira-160a1399/" target="_blank"><i class='fab fa-linkedin'></i></a>                    
+            </div>
+        </div> 
+        <h1>Calculadora de Temperatura</h1>
+        
+        <div id="container">
+			<label for="temperature">Digite a temperatura:</label><br>
+			<input type="number" id="temperature" class="custom-input"><br>
+			
+			<div class="input-label">
+			  <label for="unit">Escolha a unidade:</label><br>
+			  <select id="unit" class="custom-input">
+				<option value="celsius">Celsius</option>
+				<option value="fahrenheit">Fahrenheit</option>
+			  </select><br>
+			</div>
+			<br>
+            <br>
+            <br>
+
+			<button onclick="converterTemperatura()">Converter</button><br>
+
+			<div id="result" class="custom-input"></div>
+		  
+		  </div>         
+        <br>
+        <footer>
+            Desenvolvido por <a href="https://github.com/sammyfreitas/portfolioSite" target="_blank">Anthony Freitas</a>,<br>todos os direitos reservados - 2023.
+        </footer> 
+    </div>    
+</body>
+</html>
